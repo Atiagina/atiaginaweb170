@@ -539,18 +539,7 @@ background-color: #646776;
 
 #nav-main a:hover,
 #nav-main a:focus,
-#home #nav-main .home-link,
-#about #nav-main .about-link,
-#bio #nav-main .about-link,
-#howiwork #nav-main .about-link,
-#testimonials #nav-main .about-link,
-#tattoo #nav-main .tattoo-link,
-#paintings #nav-main .paintings-link,
-#faq #nav-main .faq-link,
-#contact #nav-main .contact-link,
-#contact-form #nav-main .contact-link,
-#paintings-gallery #nav-main .paintings-link,
-#tattoo-gallery #nav-main .tattoo-link {
+#nav-main .current-menu-item a {
 	background-color: white; 
 	color: #646776;
 }
@@ -561,7 +550,6 @@ background-color: #646776;
 	margin: 0;
 	padding: 0;
 }
-
 
 #nav-sub li {
 	margin: 0;
@@ -587,17 +575,7 @@ background-color: #646776;
 
 #nav-sub a:hover,
 #nav-sub a:focus,
-#about #nav-sub .about-link,
-#bio #nav-sub .bio-link,
-#howiwork #nav-sub .howiwork-link,
-#testimonials #nav-sub .testimonials-link,
-#tattoo #nav-sub .tattoo-link,
-#paintings #nav-sub .paintings-link,
-#faq #nav-sub .faq-link,
-#contact #nav-sub .contact-link,
-#contact-form #nav-sub .contact-form,
-#paintings-gallery #nav-sub .paintings-gallery-link,
-#tattoo-gallery #nav-sub .tattoo-gallery-link {
+#nav-sub .current-menu-item a{
 	background-color: #9A5771; 
 	color: white;
 }
@@ -937,7 +915,8 @@ display: inherit;
 #nav-main li a:hover,
 #nav-main li a:focus,
 #nav-main li li a:hover,
-#nav-main li li a:focus {
+#nav-main li li a:focus,
+#nav-main .current-menu-item a {
 	color: #646776;
 	background-color: white;
 	text-decoration: none;
