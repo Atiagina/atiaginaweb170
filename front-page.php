@@ -13,7 +13,7 @@
 <?php endwhile; endif; ?>   <!--end the loop -->  
     
     
-<small>index.php</small>  
+<small>front-page.php</small>  
 </div> <!--  end of the content div  -->
 
 <?php get_sidebar('right'); ?>
