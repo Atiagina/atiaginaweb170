@@ -2,7 +2,6 @@
 
 
     <?php if(is_page()) : ?>          
-<?php wp_nav_menu(array('theme_location' => 'main-menu', 'container' => 'nav', 'container_class' => '', 'container_id' => 'nav-sub', 'menu_class' => false, 'menu_id' => 'nav-sub')); ?>
 <nav id="nav-sub">
 <ul>    
 
