@@ -240,6 +240,13 @@ padding-right: 1.25rem;
 	float: left;
 }
 
+#content article.post-excerpt {
+   overflow: hidden;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+
 #secondary {
 	width: 200px;
 	width: 29.4117647059%;
@@ -434,6 +441,17 @@ img.testimonials {
 	margin: 10px auto;
 }
 
+#content img {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    padding: 4px;
+}
+
+#content img.attachment-thumbnail {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
 /* NAV STYLES */
 
 /*  HEADER */
@@ -539,7 +557,8 @@ background-color: #646776;
 
 #nav-main a:hover,
 #nav-main a:focus,
-#nav-main .current-menu-item a {
+#nav-main .current-menu-item a,
+#nav-main current-menu-ancestor a {
 	background-color: white; 
 	color: #646776;
 }
@@ -916,7 +935,8 @@ display: inherit;
 #nav-main li a:focus,
 #nav-main li li a:hover,
 #nav-main li li a:focus,
-#nav-main .current-menu-item a {
+#nav-main li .current-menu-item a, 
+#nav-main li li .current-menu-item a {
 	color: #646776;
 	background-color: white;
 	text-decoration: none;

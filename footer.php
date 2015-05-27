@@ -36,7 +36,8 @@
 </li>
     </ul>
   </nav>
-<small>©Atiagina 2015 for Axi Tattoo</small>
+<small>©Atiagina 2015 for Axi Tattoo<br>
+    <?php wp_loginout(); ?></small>
 
 
 </footer>

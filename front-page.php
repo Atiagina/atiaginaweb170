@@ -11,7 +11,6 @@
 <div id="latest">
 <h3>Latest news </h3>
     
-<?php rewind_posts(); ?> 
     <?php query_posts('showposts=5&cat=news'); ?>
     <ul>
    <?php while(have_posts()) : the_post(); ?>
@@ -27,9 +26,10 @@
 
 
 <div id="content">
-          <h3>Welcome to my Site</h3>         
+          <h3>Welcome to my Site</h3>
+    <?php rewind_posts(); ?> 
          <?php while(have_posts()) : the_post(); ?>
-    <?php the_content(); ?>
+    <?php the_content(''); ?>
     <?php endwhile; ?>
        
     
