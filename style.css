@@ -344,8 +344,14 @@ h4 {
 
 blockquote {
 	margin-left: 1.25rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 	font-variant: small-caps;
 	font-style: italic;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 @font-face {
@@ -558,6 +564,8 @@ background-color: #646776;
 #nav-main a:hover,
 #nav-main a:focus,
 #nav-main .current-menu-item a,
+#nav-main-ul .current-menu-item a,
+#nav-main-ul .current_page_parent a,
 #nav-main current-menu-ancestor a {
 	background-color: white; 
 	color: #646776;
@@ -594,7 +602,7 @@ background-color: #646776;
 
 #nav-sub a:hover,
 #nav-sub a:focus,
-#nav-sub .current-menu-item a{
+#nav-sub .current_page_item a{
 	background-color: #9A5771; 
 	color: white;
 }

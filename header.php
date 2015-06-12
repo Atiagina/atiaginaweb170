@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title><?php bloginfo('description');?> | <?php bloginfo('name');?> | Seattle, WA</title>
+<title><?php get_my_title_tag();?> </title>
+    
+    <!-- Begin meta -->
+    
+<meta name="description" content="<?php echo get_the_excerpt(); ?>" />
 <meta charset="UTF-8" />
 <meta name="robots" content="noindex, nofollow"/>
 

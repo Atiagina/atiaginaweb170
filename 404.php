@@ -8,7 +8,7 @@
 
 <div id="content">
 <h2>Not found. Sorry!</h2>
-//<?php get_search_form(); ?>  
+<!-- <?php get_search_form(); ?>  -->
     
 <small>404.php</small>  
 </div> <!--  end of the content div  -->
